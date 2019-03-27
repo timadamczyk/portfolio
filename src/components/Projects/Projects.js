@@ -1,22 +1,26 @@
 import React from 'react';
 import Tachyons from 'tachyons';
+import face from './face.png';
+import mandm from './mandm.png';
+import tim from './tim.png';
+import welcome from './welcome.png';
 
 const Projects = () => {
     return (
     
-    <div>
-    <article className="cf ph3 ph5-ns pv5"> 
+    <div >
+    <article className="cf ph3 ph5-ns pv5 "> 
      <header className="fn fl-ns w-50-ns pr4-ns">
     <h1 className="mb3 mt0 lh-title">Projects</h1>
-    <time className="f6 ttu tracked gray">Art and Coding Projects</time>
+    <time className="f6 ttu tracked gray">Web Developement Projects</time>
     </header>
      </article>
         <main className="mw6 center">
   <article>
   
-    <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+    <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="https://facespaceplace.herokuapp.com/">
       <div className="dtc w3">
-        <img src="http://mrmrs.github.io/images/0010.jpg" className="db w-100"/>
+        <img src={face} className="db w-100"/>
       </div>
       <div className="dtc v-top pl2">
         <h1 className="f6 f5-ns fw6 lh-title black mv0">FaceSpacePlace</h1>
@@ -27,78 +31,42 @@ const Projects = () => {
     </a>
   </article>
   <article>
-    <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+    <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="http://marthaandmary.net/">
       <div className="dtc w3">
-        <img src="http://mrmrs.github.io/images/0002.jpg" className="db w-100"/>
+        <img src={mandm} className="db w-100"/>
       </div>
       <div className="dtc v-top pl2">
-        <h1 className="f6 f5-ns fw6 lh-title black mv0">History of the Poster</h1>
-        <h2 className="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
-        <dl className="mt2 f6">
-          <dt className="clip">Price</dt>
-          <dd className="ml0">$15.00</dd>
-        </dl>
-      </div>
+      <h1 className="f6 f5-ns fw6 lh-title black mv0">Marth + Mary</h1>
+      <h2 className="f6 fw4 mt2 mb0 black-60">a an easy to use and edit commerical website</h2>
+      <h2 className="f6 fw4 mt2 mb0 black-60">Squarespace, HTML and CSS</h2>
+
+    </div>
     </a>
   </article>
   <article>
-    <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+    <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="http://welcomediner.net/">
       <div className="dtc w3">
-        <img src="http://mrmrs.github.io/images/0004.jpg" className="db w-100"/>
+        <img src={welcome} className="db w-100"/>
       </div>
       <div className="dtc v-top pl2">
-        <h1 className="f6 f5-ns fw6 lh-title black mv0">Graphic Design in IBM: Typography, Photography, and Illustration</h1>
-        <h2 className="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
-        <dl className="mt2 f6">
-          <dt className="clip">Price</dt>
-          <dd className="ml0">$15.00</dd>
-        </dl>
+        <h1 className="f6 f5-ns fw6 lh-title black mv0">Welcome Diner</h1>
+        <h2 className="f6 fw4 mt2 mb0 black-60">a simple website for a local resturant</h2>
+        <h2 className="f6 fw4 mt2 mb0 black-60">Squarespace, HTML and CSS</h2>
+
       </div>
     </a>
   </article>
-  <article>
-    <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
+  <article className="mt2 pb4">
+    <a className="link dt w-100 bb b--black-10 dim blue" href="https://timadamczyk.herokuapp.com/">
       <div className="dtc w3">
-        <img src="http://mrmrs.github.io/images/0006.jpg" className="db w-100"/>
+        <img src={tim} className="db w-100"/>
       </div>
       <div className="dtc v-top pl2">
-        <h1 className="f6 f5-ns fw6 lh-title black mv0">Fotoplakate: Von den Anfängen</h1>
-        <h2 className="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
-        <dl className="mt2 f6">
-          <dt className="clip">Price</dt>
-          <dd className="ml0">$15.00</dd>
-        </dl>
-      </div>
-    </a>
-  </article>
-  <article>
-    <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
-      <div className="dtc w3">
-        <img src="http://mrmrs.github.io/images/0030.jpg" className="db w-100"/>
-      </div>
-      <div className="dtc v-top pl2">
-        <h1 className="f6 f5-ns fw6 lh-title black mv0">The Graphic Artist</h1>
-        <h2 className="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
-        <dl className="mt2 f6">
-          <dt className="clip">Price</dt>
-          <dd className="ml0">$15.00</dd>
-        </dl>
-      </div>
-    </a>
-  </article>
-  <article className="mt2">
-    <a className="link dt w-100 bb b--black-10 dim blue" href="#0">
-      <div className="dtc w3">
-        <img src="http://mrmrs.github.io/images/0010.jpg" className="db w-100"/>
-      </div>
-      <div className="dtc v-top pl2">
-        <h1 className="f6 f5-ns fw6 lh-title black mv0">A History of Visual Communication (Geschichte der visuellen Kommunikation)</h1>
-        <h2 className="f6 fw4 mt2 mb0 black-60">Josef Müller-Brockmann</h2>
-        <dl className="mt2 f6">
-          <dt className="clip">Price</dt>
-          <dd className="ml0">$15.00</dd>
-        </dl>
-      </div>
+      <h1 className="f6 f5-ns fw6 lh-title black mv0">TimAdamczyk</h1>
+      <h2 className="f6 fw4 mt2 mb0 black-60">a simple portfolio website</h2>
+      <h2 className="f6 fw4 mt2 mb0 black-60">React, Node</h2>
+
+    </div>
     </a>
   </article>
 </main>

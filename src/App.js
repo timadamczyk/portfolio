@@ -24,7 +24,7 @@ class App extends Component {
 render() { 
     return (
       <div>
-      <Navigation onChangeAbout={this.onChangeAbout} onChangeProjects={this.onChangeProjects}/> 
+      <Navigation  onChangeAbout={this.onChangeAbout} onChangeProjects={this.onChangeProjects}/> 
      { this.state.route === 'projects' ? <Projects /> : <About />} 
       <Footer /> 
       </div>
