@@ -1,39 +1,32 @@
-import React from 'react';
-import Tachyons from 'tachyons';
+import React, { Component } from 'react';
 
-const About = () => {
+
+class About extends Component {
+
+  render() { 
     return (
-    <article class="cf ph3 ph5-ns pv5">
+<article class="cf ph3 ph5-ns pv5">
   <header class="fn fl-ns w-50-ns pr4-ns">
-    <h1 class="mb3 mt0 lh-title">About me</h1>
-    <time class="f6 ttu tracked gray">I'm new to programming</time>
+    <h1 class="mb3 mt0 lh-title">Clay in a Potter's Hand</h1>
+    <time class="f6 ttu tracked gray">Jan Tschichold</time>
   </header>
   <div class="fn fl-ns w-50-ns">
     <p class="lh-copy measure mt4 mt0-ns">
-      PERFECT typography is more a science than an art. Mastery of the trade is
-      indispensable, but it isn't everything. Unerring taste, the hallmark of
-      perfection, rests also upon a clear understanding of the laws of harmonious
-      design. As a rule, impeccable taste springs partly from inborn sensitivity:
-      from feeling. But feelings remain rather unproductive unless they can inspire a
-      secure judgment. Feelings have to mature into knowledge about the consequences
-      of formal decisions. For this reason, there are no born masters of typography,
-      but self- education may lead in time to mastery.
+      Hello There, I am Tim Adamczyk. Welcome to my Website. This is a starting point for what
+      I hope to be a larger repository of images and explainations of my work in Web Development, 
+      as well as explainations as to why i am interested in spending inordinate ammounts of time 
+      looking at the computer in the attempt to understand web development and software development at large. 
     </p>
-    <p class="lh-copy measure">
-      It is wrong to say that there is no arguing about taste when it is good taste
-      that is in question. We are not born with good taste, nor do we come into this
-      world equipped with a real understanding of art. Merely to recognize who or
-      what is represented in a picture has little to do with a real under- standing
-      of art. Neither has an uninformed opinion about the proportions of Roman
-      letters. In any case, arguing is senseless. He who wants to convince has to
-      do a better job than others.
+    <p class="lh-copy measure"> 
+    I Sincerly hope that this website is not only a deep dive into the concepts that interest me but also provide 
+    a respit from the day to day functionality of some of the web development software that we use. Hacking , for example, 
+    is not as much as breaking as it is a discovery through compartmentalization is it a deep dive while seeking another perspective. 
+    I hope this website to show my thinking that web devleopment is a tapesry of tools to use for the greater purpose of meaning building. 
     </p>
   </div>
 </article>
-
-
     );
-}
+} }
 
 export default About; 
 

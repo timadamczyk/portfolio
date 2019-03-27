@@ -1,16 +1,24 @@
-import React , {component} from 'react';
-import Tachyons from 'tachyons';
+import React from 'react';
 
-const Navigation = () => {
+const Navigation = ({onChangeAbout, onChangeProjects}) => {
+
     return (
-        <nav class="pa3 pa4-ns">
-        <a class="link dim black b f6 f5-ns dib mr3" href="#" title="Home">Tim Adamczyk</a>
-        <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="About">About</a>
-        <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Store">Projects</a>
-        <a class="link dim gray    f6 f5-ns dib" href="#" title="Contact">Contact</a>
+        <nav className="pa3 pa4-ns">
+        <p className="link dim black b f6 f5-ns dib mr3" href="#" title="Home">Tim Adamczyk</p>
+        <a
+        onClick = {onChangeAbout}
+        className="link dim gray    f6 f5-ns dib mr3" 
+        href="#" 
+        title="About">
+        About</a>
+        <p 
+        onClick = {onChangeProjects}
+        className="link dim gray    f6 f5-ns dib mr3" 
+        href="#" 
+        title="Store">
+        Projects</p>
       </nav>
     );
 }
-
 export default Navigation; 
 
