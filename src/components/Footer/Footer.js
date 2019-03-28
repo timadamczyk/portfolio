@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import timres from './timres.pdf';
 import Tachyons from 'tachyons';
 
 class Footer extends Component {
@@ -8,8 +9,8 @@ class Footer extends Component {
     <footer className="bg-near-black white-80 pv5 pv6-l ph4">
     <p className="f6"><span className="dib mr4 mr5-ns"> Tim Adamczyk </span>
     <a className="link white-80 hover-light-purple" href="/art">phoenix arizona</a> /
-    <a className="link white-80 hover-gold" href="/resume"> email me </a> /
-    <a className="link white-80 hover-green" href="/callme" > call me </a>
+    <a className="link white-80 hover-gold" href={timres}> resume </a> /
+    <a className="link white-80 hover-green" href="/callme" > email me </a>
   </p>
 </footer>
 
