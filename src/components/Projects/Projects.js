@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="dtc v-top pl2">
         <h1 className="f6 f5-ns fw6 lh-title black mv0">FaceSpacePlace</h1>
         <h2 className="f6 fw4 mt2 mb0 black-60">a face detection app using the Clarifai API</h2>
-        <h2 className="f6 fw4 mt2 mb0 black-60">React, Node, Express, Prostgres</h2>
+        <h2 className="f6 fw4 mt2 mb0 black-60">React, Node, Express,and PostgreSQL</h2>
 
       </div>
     </a>
@@ -36,9 +36,9 @@ const Projects = () => {
         <img src={mandm} className="db w-100"/>
       </div>
       <div className="dtc v-top pl2">
-      <h1 className="f6 f5-ns fw6 lh-title black mv0">Marth + Mary</h1>
-      <h2 className="f6 fw4 mt2 mb0 black-60">a an easy to use and edit commerical website</h2>
-      <h2 className="f6 fw4 mt2 mb0 black-60">Squarespace, HTML and CSS</h2>
+      <h1 className="f6 f5-ns fw6 lh-title black mv0">Martha + Mary</h1>
+      <h2 className="f6 fw4 mt2 mb0 black-60">an easy to edit commerical website</h2>
+      <h2 className="f6 fw4 mt2 mb0 black-60">Squarespace, HTML, and CSS</h2>
 
     </div>
     </a>
@@ -50,8 +50,8 @@ const Projects = () => {
       </div>
       <div className="dtc v-top pl2">
         <h1 className="f6 f5-ns fw6 lh-title black mv0">Welcome Diner</h1>
-        <h2 className="f6 fw4 mt2 mb0 black-60">a simple website for a local resturant</h2>
-        <h2 className="f6 fw4 mt2 mb0 black-60">Squarespace, HTML and CSS</h2>
+        <h2 className="f6 fw4 mt2 mb0 black-60">an easy to edit website for a local resturant</h2>
+        <h2 className="f6 fw4 mt2 mb0 black-60">Squarespace, HTML, and CSS</h2>
 
       </div>
     </a>
@@ -64,7 +64,7 @@ const Projects = () => {
       <div className="dtc v-top pl2">
       <h1 className="f6 f5-ns fw6 lh-title black mv0">TimAdamczyk</h1>
       <h2 className="f6 fw4 mt2 mb0 black-60">a simple portfolio website</h2>
-      <h2 className="f6 fw4 mt2 mb0 black-60">React, Node</h2>
+      <h2 className="f6 fw4 mt2 mb0 black-60">React, and Node</h2>
 
     </div>
     </a>
