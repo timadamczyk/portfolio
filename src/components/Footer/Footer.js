@@ -10,7 +10,7 @@ class Footer extends Component {
     <p className="f6"><span className="dib mr4 mr5-ns"> Tim Adamczyk </span>
     <a className="link white-80 hover-light-purple" href="/art">phoenix arizona</a> /
     <a className="link white-80 hover-gold" href={timres}> resume </a> /
-    <a className="link white-80 hover-green" href="/callme" > email me </a>
+    <a className="link white-80 hover-green" href="https://github.com/timadamczyk" > github </a>
   </p>
 </footer>
 
